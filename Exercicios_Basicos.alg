@@ -3,6 +3,7 @@ algoritmo "semnome"
 // Autor :
 // Data : 15/06/2021
 // Seção de Declarações 
+
 var
 s: Real
 n1, n2 : Inteiro
@@ -11,10 +12,31 @@ Media: Real
 Ante, Suce: Inteiro
 nu1: Real
 DistM: Real
+Nome: Caractere
+Sal: Real
+Mat: Inteiro
+NomeF: Caractere
 
 inicio
+// Questão 2
+Escreva ("Qual é o seu nome?")
+Leia (nome)
+Escreva ("Olá, ", nome, ".", " É um prazer te conhecer!")
+EscrevaL
+EscrevaL
+
+// Questão 3
+Escreva ("Digite a matrícula do(a) funcionário(a): ")
+Leia (Mat)
+Mat <- 123 //Para efeito de testes a matrícula será 123
+NomeF <- "Maria do Carmo"
+Sal <- 1850.45
+Escreva ("A funcionária ", NomeF, " tem um salário de ", Sal, " em Junho.")
+EscrevaL
+EscrevaL
+
 // Questão 4
-EscrevaL ("Questão 4 - Vamos somar dois números.")
+EscrevaL ("Vamos somar dois números.")
 Escreva("Digite o primeiro número: ")
 Leia (n1)
 Escreva("Digite o segundo número: ")
@@ -25,7 +47,7 @@ EscrevaL
 EscrevaL
 
 //Questão 5
-EscrevaL ("Questão 5 - Qual a média das notas?")
+EscrevaL ("Qual a média das notas?")
 Escreva ("Digite o valor da 'Nota 1': ")
 Leia (Nota1)
 Escreva("Digite o valor da 'Nota 2': ")
